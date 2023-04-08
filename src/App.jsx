@@ -60,6 +60,26 @@ const App = () => {
       pattern: values.password,
       required: true,
     },
+    {
+      id: 6,
+      name: "confirmPassword",
+      type: "password",
+      placeholder: "Confirm Password",
+      errorMessage: "Passwords don't match!",
+      label: "Confirm Password",
+      pattern: values.password,
+      required: true,
+    },
+    {
+      id: 7,
+      name: "confirmPassword",
+      type: "password",
+      placeholder: "Confirm Password",
+      errorMessage: "Passwords don't match!",
+      label: "Confirm Password",
+      pattern: values.password,
+      required: true,
+    },
   ];
 
   const handleSubmit = (e) => {
